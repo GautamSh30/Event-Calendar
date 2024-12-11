@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+<h1 align="center">Dynamic Event Calendar Application</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>
+  The Dynamic Event Calendar Application is a robust and user-friendly event management platform. Built with modern technologies, it offers seamless calendar functionality and intuitive event management for personal and professional use.
+</p>
 
-Currently, two official plugins are available:
+<h2 id="features">Features</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+  <li>
+    <h4 id="calendar-view">Calendar View: A visually appealing calendar grid with monthly, weekly, daily, and agenda views.</h4>
+  </li>
+  <li>
+    <h4 id="event-management">Event Management: Add, edit, delete, and reschedule events easily.</h4>
+  </li>
+  <li>
+    <h4 id="drag-and-drop">Drag and Drop: Allows users to drag and drop events for easy rescheduling.</h4>
+  </li>
+  <li>
+    <h4 id="custom-event-templates">Custom Event Templates: Display events with unique templates for Week and Month views.</h4>
+  </li>
+</ul>
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+<h2 id="start-the-app">Start the App</h2>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+<p>Follow these steps to run the application locally:</p>
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<pre>
+<code>
+npm install
+npm start
+</code>
+</pre>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+<h2 id="deployment">Deployment</h2>
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<p>The application is deployed and available online. Visit the live version here:</p>
+<p>
+  <a href="https://event-calendar-2-6lc5.onrender.com/">Live Demo</a>
+</p>
+
+<h2 id="technologies-used">Technologies Used</h2>
+
+<ul>
+  <li>React.js</li>
+  <li>Syncfusion React Schedule</li>
+  <li>CSS for modern UI design</li>
+</ul>
+
+<h2 id="screenshots">Screenshots</h2>
+
+<p>Here are some screenshots of the application:</p>
+
+<a href="./public/screenshot1.png"><img src="./public/screenshot1.png" alt="Screenshot 1"></a>
+<a href="./public/screenshot2.png"><img src="./public/screenshot2.png" alt="Screenshot 2"></a>
+<a href="./public/screenshot3.png"><img src="./public/screenshot3.png" alt="Screenshot 3"></a>
+<a href="./public/screenshot4.png"><img src="./public/screenshot4.png" alt="Screenshot 4"></a>
