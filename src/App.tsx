@@ -30,7 +30,8 @@ const App = () => {
       Id: 4,
       Subject: 'Meteor Showers in 2024',
       StartTime: new Date(2024, 11, 14, 13, 0),
-      EndTime: new Date(2024, 11, 14, 14, 30)
+      EndTime: new Date(2024, 11, 14, 14, 30),
+      IsBlock: true
   }];
 
 
